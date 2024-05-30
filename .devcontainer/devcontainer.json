@@ -8,11 +8,13 @@
 	"runArgs": ["--gpus", "all", "--shm-size", "1gb"],
 	"remoteUser": "root",
 	"customizations": {
-		"extensions": [
-			"ms-python.python",
-			"ms-python.vscode-pylance",
-			"charliermarsh.ruff",
-			"ms-toolsai.jupyter"
-		]
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"charliermarsh.ruff",
+				"ms-toolsai.jupyter"
+			]
+		}
 	}
 }
